@@ -1,0 +1,15 @@
+FaceDetectionPro/
+│
+├── main.py                # Entry point
+├── detector/
+│   ├── __init__.py
+│   ├── face_detector.py   # Handles detection logic
+│   ├── video_stream.py    # Handles video capture
+│
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py          # Clean logging
+│   └── config.py          # Settings in one place
+│
+├── requirements.txt       # All dependencies
+└── README.md               # Project doc
